@@ -6,6 +6,7 @@
   "author": {
     "name": "codekult"
   },
+  "publisher": "codekult",
   "engines": {
     "vscode": "^1.62.0"
   },
@@ -15,7 +16,17 @@
   "license": "🄯 Copyleft",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codekult/kultist-theme-color.git"
+    "url": "https://github.com/codekult/kultist-color-theme.git"
+  },
+  "homepage": "https://github.com/codekult/kultist-color-theme/blob/master/README.md",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "bugs": {
+    "url": "https://github.com/codekult/kultist-color-theme/issues",
+    "email": "codekult@gmail.com"
   },
   "contributes": {
     "themes": [
