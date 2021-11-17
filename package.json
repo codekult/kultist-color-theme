@@ -1,0 +1,29 @@
+{
+  "name": "kultist-color-theme",
+  "displayName": "Kultist color theme",
+  "description": "A black and minimal theme with subtle syntax",
+  "version": "0.0.1",
+  "author": {
+    "name": "codekult"
+  },
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "license": "🄯 Copyleft",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codekult/kultist-theme-color.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kultist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kultist-color-theme.json"
+      }
+    ]
+  }
+}
