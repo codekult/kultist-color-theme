@@ -2001,7 +2001,7 @@
     "tab.activeForeground": "#ffffff",
     "tab.border": "#060606",
     "tab.activeBackground": "#060606",
-    "tab.activeBorder": "#00000000",
+    "tab.activeBorder": "#ffffff",
     "tab.activeBorderTop": "#00000000",
     "tab.inactiveBackground": "#000000",
     "tab.inactiveForeground": "#666666",
