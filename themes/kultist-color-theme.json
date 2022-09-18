@@ -1932,7 +1932,7 @@
     "editor.hoverHighlightBackground": "#111111",
     "editor.wordHighlightStrongBackground": "#111111",
     "editor.wordHighlightStrongBorder": "#ff000000",
-    "editor.wordHighlightBackground": "#111111",
+    "editor.wordHighlightBackground": "#27180F50",
     "editor.lineHighlightBackground": "#111111",
     "editor.lineHighlightBorder": "#28282800",
     "editorLineNumber.activeForeground": "#cccccc",
