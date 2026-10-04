@@ -1,12 +1,8 @@
 # Kultist color theme
 
-![](images/icon.png)
-
 A black and minimal color theme. Monochrome greys carry the structure of the code, and
 shades of a single red accent mark what matters: keywords, literals and operators. No
 italics, no coloured surfaces, just true black.
-
-The palette is based on [Solitude](https://github.com/basecamp/omarchy) from Omarchy.
 
 ![TypeScript and the integrated terminal](images/preview.png)
 
