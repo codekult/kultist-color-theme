@@ -1,8 +1,8 @@
 {
   "name": "kultist-color-theme",
   "displayName": "Kultist color theme",
-  "description": "A black and minimal theme with subtle syntax",
-  "version": "1.1.0",
+  "description": "A black and minimal theme: monochrome greys for syntax, warm literals, red only for errors",
+  "version": "2.0.0",
   "author": {
     "name": "codekult"
   },
@@ -12,6 +12,13 @@
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "black",
+    "monochrome",
+    "minimal"
   ],
   "license": "CC0-1.0",
   "repository": {
@@ -29,6 +36,12 @@
   },
   "contributes": {
     "themes": [
+      {
+        "id": "Kultist",
+        "label": "Kultist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kultist-color-theme.json"
+      },
       {
         "id": "Kultist Classic",
         "label": "Kultist Classic",
