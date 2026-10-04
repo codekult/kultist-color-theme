@@ -8,12 +8,12 @@
   },
   "publisher": "codekult",
   "engines": {
-    "vscode": "^1.62.0"
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Themes"
   ],
-  "license": "🄯 Copyleft",
+  "license": "CC0-1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/codekult/kultist-color-theme.git"
@@ -25,8 +25,7 @@
     "theme": "dark"
   },
   "bugs": {
-    "url": "https://github.com/codekult/kultist-color-theme/issues",
-    "email": "codekult@gmail.com"
+    "url": "https://github.com/codekult/kultist-color-theme/issues"
   },
   "contributes": {
     "themes": [
@@ -36,5 +35,14 @@
         "path": "./themes/kultist-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish:vsce": "vsce publish",
+    "publish:ovsx": "ovsx publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^4.0.0",
+    "ovsx": "^1.2.0"
   }
 }
