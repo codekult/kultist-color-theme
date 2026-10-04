@@ -30,9 +30,10 @@
   "contributes": {
     "themes": [
       {
-        "label": "Kultist",
+        "id": "Kultist Classic",
+        "label": "Kultist Classic",
         "uiTheme": "vs-dark",
-        "path": "./themes/kultist-color-theme.json"
+        "path": "./themes/kultist-classic-color-theme.json"
       }
     ]
   },
