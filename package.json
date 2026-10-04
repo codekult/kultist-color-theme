@@ -1,19 +1,26 @@
 {
   "name": "kultist-color-theme",
   "displayName": "Kultist color theme",
-  "description": "A black and minimal theme with subtle syntax",
-  "version": "1.1.0",
+  "description": "A black and minimal theme: monochrome greys for syntax, warm literals, red only for errors",
+  "version": "2.0.0",
   "author": {
     "name": "codekult"
   },
   "publisher": "codekult",
   "engines": {
-    "vscode": "^1.62.0"
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Themes"
   ],
-  "license": "🄯 Copyleft",
+  "keywords": [
+    "theme",
+    "dark",
+    "black",
+    "monochrome",
+    "minimal"
+  ],
+  "license": "CC0-1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/codekult/kultist-color-theme.git"
@@ -25,16 +32,31 @@
     "theme": "dark"
   },
   "bugs": {
-    "url": "https://github.com/codekult/kultist-color-theme/issues",
-    "email": "codekult@gmail.com"
+    "url": "https://github.com/codekult/kultist-color-theme/issues"
   },
   "contributes": {
     "themes": [
       {
+        "id": "Kultist",
         "label": "Kultist",
         "uiTheme": "vs-dark",
         "path": "./themes/kultist-color-theme.json"
+      },
+      {
+        "id": "Kultist Classic",
+        "label": "Kultist Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kultist-classic-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish:vsce": "vsce publish",
+    "publish:ovsx": "ovsx publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^4.0.0",
+    "ovsx": "^1.2.0"
   }
 }
