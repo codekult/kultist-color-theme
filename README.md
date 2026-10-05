@@ -8,8 +8,6 @@ grey structure, with red and orange embers for keywords, strings and operators.
 
 ![TypeScript and the integrated terminal](images/preview.png)
 
-![Python](images/preview-python.png)
-
 ![Markdown](images/preview-markdown.png)
 
 ## Install
