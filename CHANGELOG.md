@@ -3,6 +3,26 @@
 All notable changes to this theme are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/).
 
+## [3.0.0] - 2026-10-05
+
+**The editor has a new look.** The workbench keeps the Solitude palette on true black; the
+editor now follows [ashen](https://github.com/ficcdaf/ashen.nvim), the same colours as the
+Kultist Neovim theme. **Kultist Classic** is unchanged.
+
+### Changed
+
+- Syntax: grey structure (text `#b4b4b4`, functions `#e5e5e5`, types and properties
+  `#d5d5d5`, comments and brackets `#737373`), dark red keywords and decorators, salmon
+  strings, orange operators, constants and modules, amber delimiters, teal numbers, booleans,
+  builtin types and `this` / `self`. Python docstrings are strings. Keywords are no longer bold.
+- Markdown: italics and quotes are italic again; headings dark red, links salmon, lists orange.
+- Editor area and gutter: dimmer line numbers, grey current line and selection, orange
+  current find match, neutral grey indent guides, and ashen colours for git changes in the
+  gutter (grey added, amber modified, red deleted) and for errors (`#c53030`) and warnings
+  (`#e5a72a`).
+- Integrated terminal: cursor `#a5aeb4`, selection `#a5aeb4` on `#343d41`, ANSI white
+  `#cacccc`, matching Omarchy's Solitude terminal.
+
 ## [2.0.0] - 2026-10-04
 
 **Kultist has a new look.** The previous theme is still included, unchanged, as
