@@ -3,6 +3,21 @@
 All notable changes to this theme are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/).
 
+## [3.1.0] - 2026-10-13
+
+**One palette with the Kultist terminal and editors.** Solitude's greys on true black with
+three ashen accents: red `#b14242` and teal `#4a8b8b` at full saturation, gold `#b69759` at
+half.
+
+### Changed
+
+- Workbench: the red accent (buttons, badges, active borders, errors, links) is ashen's
+  `#b14242` instead of Solitude's `#de6145`; warnings are gold `#b69759`.
+- Integrated terminal: the Kultist terminal's 16 ANSI colours (red, gold and teal accents).
+- Editor: Solitude's greys instead of ashen's neutral ones (text `#a5aeb4`, selection
+  `#343d41`); ashen's oranges and gold at half saturation (operators `#b4866e`, constants
+  `#a2755f`, delimiters `#bc976c`, warnings `#b69759`). Reds and teal are unchanged.
+
 ## [3.0.0] - 2026-10-05
 
 **The editor has a new look.** The workbench keeps the Solitude palette on true black; the

@@ -2,9 +2,10 @@
 
 A black and minimal color theme. The workbench uses the
 [Solitude](https://github.com/basecamp/omarchy) palette from Omarchy on true black: slate greys,
-flat surfaces, one red accent. The editor follows
-[ashen](https://github.com/ficcdaf/ashen.nvim), the Neovim theme Omarchy pairs with Solitude:
-grey structure, with red and orange embers for keywords, strings and operators.
+flat surfaces, with three accents from [ashen](https://github.com/ficcdaf/ashen.nvim): red
+`#b14242` and teal `#4a8b8b` at full saturation, gold `#b69759` at half. The editor keeps
+ashen's colour roles in that palette: grey structure, red embers for keywords and strings,
+muted orange for operators.
 
 ![TypeScript and the integrated terminal](images/preview.png)
 
@@ -50,21 +51,23 @@ unchanged, as **Kultist Classic**. To keep using it, pick it in the theme picker
 | Role | Colour |
 | --- | --- |
 | Background | `#000000` |
-| Text, variables, parameters | `#b4b4b4` |
-| Functions, methods | `#e5e5e5` |
-| Properties, types | `#d5d5d5` |
-| Comments, brackets | `#737373` |
+| Text, variables, parameters | `#a5aeb4` |
+| Functions, methods | `#d9dbdc` |
+| Properties, types | `#cacccc` |
+| Comments, brackets | `#707070` |
+| Selection | `#343d41` |
 | Keywords, decorators, headings | `#b14242` |
 | Strings, links | `#df6464` |
-| Operators | `#d87c4a` |
-| Constants, modules, word operators (`in`, `and`) | `#c4693d` |
-| Delimiters (`,` `;` `.` `:`) | `#e49a44` |
+| Operators | `#b4866e` |
+| Constants, modules, word operators (`in`, `and`) | `#a2755f` |
+| Delimiters (`,` `;` `.` `:`) | `#bc976c` |
 | Numbers, booleans, builtin types, `this` / `self` | `#4a8b8b` |
-| Errors / warnings | `#c53030` / `#e5a72a` |
+| Errors / warnings | `#c53030` / `#b69759` |
 
 **Workbench and integrated terminal** (Solitude on true black): text `#cacccc`, greys
-`#343d41` to `#a5aeb4`, slate accent `#798186` (active tab, badges), red accent `#de6145`. The
-integrated terminal uses the same 16 ANSI colours as the Kultist terminal palette.
+`#343d41` to `#a5aeb4`, slate accent `#798186` (active tab, badges), red accent `#b14242`,
+gold warnings `#b69759`. The integrated terminal uses the same 16 ANSI colours as the Kultist
+terminal palette.
 
 ## Recommended settings
 
